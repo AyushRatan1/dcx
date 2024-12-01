@@ -75,41 +75,37 @@ export const vedAiServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Multi-language support",
-    text: "Enable the AI to support multiple Indian languages for a more inclusive learning experience.",
-    date: "2024",
+    title: "Launch CoinSplit Wallet",
+    text: "Release a secure and user-friendly crypto wallet.",
+    date: "Q1 2024",
     status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
+    
   },
   {
     id: "1",
-    title: "Enhanced personal profile insights",
-    text: "Improve user profiling to provide more personalized and adaptive learning recommendations.",
-    date: "2024",
+    title: "Implement Instant Transactions",
+    text: "Enable seamless peer-to-peer transactions with minimal fees.",
+    date: "Q2 2024",
     status: "progress",
-    imageUrl: roadmap2,
+  
   },
   {
     id: "2",
-    title: "Gamified learning experience",
-    text: "Add gamified elements, such as badges and rewards, to increase engagement and motivation.",
-    date: "2024",
+    title: "Launch Analytics Dashboard",
+    text: "Provide users with actionable insights and portfolio tracking tools.",
+    date: "Q3 2024",
     status: "planned",
-    imageUrl: roadmap3,
+    
   },
   {
     id: "3",
-    title: "Integration with external knowledge sources",
-    text: "Allow Ved AI to access diverse content sources for more enriched learning recommendations.",
-    date: "2024",
-    status: "progress",
-    imageUrl: roadmap4,
+    title: "Expand to DeFi Solutions",
+    text: "Introduce staking and lending features to grow the ecosystem.",
+    date: "Q4 2024",
+    status: "planned",
+    
   },
-];
-
-// Collaboration section text
-export const collabText =
+];export const collabText =
   "Ved AI brings smart automation, secure collaboration, and seamless integration to support your learning and growth.";
 
 // Collaboration content items for Ved AI

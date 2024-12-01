@@ -55,7 +55,7 @@ const Intro = () => {
         onError={() => setIsAutoplaySupported(false)} // Handle autoplay error
       />
 
-      {/* VED AI Text */}
+      {/* CoinSplit Text */}
       <div
         ref={textRef}
         className="absolute inset-0 flex items-center justify-center"
@@ -71,7 +71,7 @@ const Intro = () => {
             fontFamily: "CustomNeoFont, sans-serif", // Use custom font
           }}
         >
-          VED AI
+          CoinSplit
         </h1>
       </div>
 

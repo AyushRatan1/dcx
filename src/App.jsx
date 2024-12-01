@@ -20,12 +20,11 @@ const App = () => {
 
         <Intro />
         <Pincontainer />
-        <ContainerScroll />
+    
         <Roadmap />
-        <Hero />
-        <Collaboration />
-        <Tabs />
-        <MacbookScroll />
+       
+        
+       
 
         <HeroParallax />
         <GoogleGeminiEffect />

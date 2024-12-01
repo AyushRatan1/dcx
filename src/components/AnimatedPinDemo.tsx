@@ -4,37 +4,42 @@ import { PinContainer } from "./pin";
 import Heading from "./Heading"; // Import Heading component
 import Button from "./Button";
 
-// Benefits data with images
+// Benefits data without images, tailored for Web3 and crypto
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Allows students to quickly find answers to learning questions without extensive searching.",
-    image: "ved1.png", // Add image for this benefit
+    title: "Secure Registration and Authentication",
+    text: "Log in with wallet integration or social accounts, ensuring secure and decentralized authentication.",
   },
   {
     id: "1",
-    title: "Continuous learning",
-    text: "Uses advanced AI to support adaptive learning and provide relevant content over time.",
-    image: "ved-3.png", // Add image for this benefit
+    title: "Blockchain-Powered Group Management",
+    text: "Create groups with smart contract-backed management, ensuring transparency and security.",
   },
   {
     id: "2",
-    title: "Accessible anywhere",
-    text: "Enables access to Ved AI on any device, making learning more convenient.",
-    image: "ved-5.png", // Add image for this benefit
+    title: "Crypto Expense Logging",
+    text: "Log expenses directly in crypto, with options to track transactions on-chain.",
   },
   {
     id: "3",
-    title: "Real-time responses",
-    text: "Provides fast and accurate responses to support timely learning.",
-    image: "ved-6.png", // Add image for this benefit
+    title: "Decentralized Bill Splitting",
+    text: "Split bills via smart contracts, ensuring fair and automated calculations.",
   },
   {
     id: "4",
-    title: "Comprehensive support",
-    text: "Assists with a wide range of educational topics for a complete learning experience.",
-    image: "ved-7.png", // Add image for this benefit
+    title: "Web3 Analytics Dashboard",
+    text: "View detailed insights into your crypto spending, token usage, and on-chain activity.",
+  },
+  {
+    id: "5",
+    title: "Multi-Currency and Token Support",
+    text: "Track and settle expenses in various cryptocurrencies and stablecoins.",
+  },
+  {
+    id: "6",
+    title: "Smart Notifications",
+    text: "Receive blockchain-powered reminders and real-time notifications for pending dues.",
   },
 ];
 
@@ -46,21 +51,13 @@ export function AnimatedPinDemo() {
         {/* Heading */}
         <Heading
           className="md:max-w-md lg:max-w-2xl mb-12"
-          title="Learn Smarter, Achieve More with Ved AI"
+          title="Simplify Crypto Expense Management with CoinSplit"
         />
         {/* Cards */}
         <div className="h-auto w-full flex flex-wrap items-center justify-center gap-6">
           {benefits.map((benefit) => (
             <PinContainer key={benefit.id} title={benefit.title} href="#">
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
-                {/* Image */}
-                <div className="flex justify-center items-center h-2/3 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500 rounded-lg overflow-hidden">
-                  <img
-                    src={benefit.image}
-                    alt={benefit.title}
-                    className="object-cover w-full h-full"
-                  />
-                </div>
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[16rem]">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100 mt-4">
                   {benefit.title}
                 </h3>
@@ -73,7 +70,7 @@ export function AnimatedPinDemo() {
           ))}
         </div>
         <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-          <Button href="https://ved-ai-front.vercel.app/">Let's Dive In</Button>
+          <Button href="https://coinsplit.vercel.app/">Explore Now</Button>
         </div>
       </div>
     </section>
