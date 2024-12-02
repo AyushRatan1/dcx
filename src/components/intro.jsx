@@ -66,12 +66,14 @@ const Intro = () => {
         }}
       >
         <h1
-          className="text-white text-9xl font-bold"
+          className="text-white font-bold"
           style={{
             fontFamily: "CustomNeoFont, sans-serif", // Use custom font
           }}
         >
-          CoinSplit
+          <span className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
+            CoinSplit
+          </span>
         </h1>
       </div>
 
