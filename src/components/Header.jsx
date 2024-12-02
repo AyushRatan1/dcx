@@ -63,18 +63,10 @@ const Header = () => {
           </nav>
           <div className="flex justify-center items-center">
             {/* Explore Button */}
-            <Button className="hidden lg:flex" href="#explore">
-              Explore
-            </Button>
+           
           </div>
         </div>
-        <Button
-          className="ml-auto lg:hidden"
-          px="px-3"
-          onClick={toggleNavigation}
-        >
-          <MenuSvg openNavigation={openNavigation} />
-        </Button>
+        
       </div>
     </div>
   );

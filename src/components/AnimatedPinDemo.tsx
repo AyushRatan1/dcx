@@ -36,11 +36,7 @@ export const benefits = [
     title: "Multi-Currency and Token Support",
     text: "Track and settle expenses in various cryptocurrencies and stablecoins.",
   },
-  {
-    id: "6",
-    title: "Smart Notifications",
-    text: "Receive blockchain-powered reminders and real-time notifications for pending dues.",
-  },
+ 
 ];
 
 // Component to render multiple cards
@@ -70,7 +66,7 @@ export function AnimatedPinDemo() {
           ))}
         </div>
         <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-          <Button href="https://coinsplit.vercel.app/">Explore Now</Button>
+          <Button href="https://splitfare.vercel.app/">Explore Now</Button>
         </div>
       </div>
     </section>

@@ -26,7 +26,7 @@ const App = () => {
         
        
 
-        <HeroParallax />
+       
         <GoogleGeminiEffect />
         <Footer />
       </div>
