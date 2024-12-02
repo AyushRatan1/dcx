@@ -65,9 +65,20 @@ export function AnimatedPinDemo() {
             </PinContainer>
           ))}
         </div>
-        <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-          <Button href="https://splitfare.vercel.app/">Explore Now</Button>
-        </div>
+         <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+  <Button
+    href="https://splitfare.vercel.app/"
+    className="text-3xl md:text-4xl font-extrabold py-6 px-12 rounded-2xl bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-pink-500 hover:to-purple-500 text-white shadow-2xl transition-all transform hover:scale-110 hover:shadow-pink-500/50"
+    style={{
+      fontSize: "2rem",
+      fontWeight: "800",
+      padding: "1.5rem 3rem",
+      borderRadius: "1rem",
+    }}
+  >
+    Explore Now
+  </Button>
+</div>
       </div>
     </section>
   );
